@@ -1,0 +1,11 @@
+{
+    "keyboard_name": "OHKB",
+    "manufacturer": "smathles",
+    "url": "https://github.com/smathles/OHKB",
+    "maintainer": "smathles",
+    "usb": {
+        "vid": "0xCHANGEME",
+        "pid": "0xCHANGEME",
+        "device_version": "0.0.1"
+    },
+}
