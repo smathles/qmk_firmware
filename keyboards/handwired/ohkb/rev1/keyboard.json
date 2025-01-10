@@ -3,8 +3,19 @@
     "keyboard_name": "ohkb",
     "maintainer": "smathles",
     "url": "https://github.com/smathles/ohkb",
+
     "development_board": "promicro",
     "bootloader": "caterina",
+
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+
     "diode_direction": "COL2ROW",
     "matrix_pins": {
         "cols": ["B6", "B2", "B3", "B1", "F7", "F6", "F5", "F4", "D1"],
@@ -21,14 +32,6 @@
         "serial": {
             "pin": "D2"
         }
-    },
-    "features": {
-        "bootmagic": true,
-        "command": false,
-        "console": false,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": true
     },
     "usb": {
         "device_version": "0.0.1",
